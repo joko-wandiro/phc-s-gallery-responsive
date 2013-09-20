@@ -38,7 +38,7 @@ padding-left: 22px;
 #tabs #tabs-how-to-use ul img {
 width: 70%;
 }
-#tabs #tabs-how-to-use ul img.step5 {
+#tabs #tabs-how-to-use ul img.step5, #tabs #tabs-how-to-use ul img.step11 {
 width: auto;
 }
 #tabs h2 {

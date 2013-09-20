@@ -129,7 +129,8 @@ function phc_s_gallery_responsive_documentation_page(){
 	<li>
 	<p><?php _e("Use Widget Text. Enter Title. Ex: S Gallery Responsive Widget. Then add shortcode into content. You should add parameter type=&quot;widget&quot; into shortcode. See the following image.", PHC_S_GALLERY_RESPONSIVE_IDENTIFIER); ?></p>
 	<p>
-	<img src="<?php echo PHC_S_GALLERY_RESPONSIVE_IMG_DOCUMENTATION_BOW_TO_USE_URL . "step11.png"; ?>" />
+	<img src="<?php echo PHC_S_GALLERY_RESPONSIVE_IMG_DOCUMENTATION_BOW_TO_USE_URL . "step11.png"; ?>" 
+	class="step11" />
 	</p>
 	</li>
 	<li>
