@@ -145,6 +145,9 @@ vertical-align: middle;
 .items--big.active {
 background-color: #000;
 }
+.gallery-container .item--big {
+margin: 0px;
+}
 .item--big {
   position: absolute;
   width: 60%;
