@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: S Gallery Responsive
-Plugin URI: http://www.phantasmacode.com
+Plugin URI: https://github.com/joko-wandiro/wp-s-gallery-responsive
 Description: S Gallery: Responsive jQuery Gallery Plugin with CSS3 Animations
 Version: 1.0.0
 Author: Joko Wandiro
