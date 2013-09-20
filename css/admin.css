@@ -1,0 +1,13 @@
+/**ADMIN STYLES**/
+#adminmenu #menu-posts-s-gallery-responsive .wp-menu-image {
+width: 40px;
+}
+#adminmenu #menu-posts-s-gallery-responsive .wp-menu-name {
+line-height: normal;
+padding: 8px 0px;
+margin-left: 40px;
+}
+#icon-edit.icon32-posts-s-gallery-responsive {
+background-image: url(../img/icon.png);
+background-position: center center;
+}

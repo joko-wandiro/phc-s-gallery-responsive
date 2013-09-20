@@ -1,0 +1,88 @@
+#phc-pricing-table {
+padding-left: 20px;
+}
+#container-donate-btn {
+background: #00BA84;
+color: white;
+min-height: 60px;
+padding: 10px;
+}
+#container-donate-btn div.form {
+float: left;
+width: 180px;
+}
+#container-donate-btn .float-left {
+font-size: 18px;
+}
+#tabs {
+border: none;
+margin-top: 10px;
+}
+#tabs > ul {
+margin: 0px;
+padding-bottom: 0px;
+border-bottom: 1px solid #ddd;
+}
+#tabs #tabs-how-to-use, #tabs #tabs-settings-page, #tabs #tabs-available-hooks, #tabs #tabs-translation {
+border: 1px solid #ddd;
+border-top: 0px;
+padding-top: 10px;
+}
+#tabs #tabs-translation ul {
+padding-left: 22px;
+}
+#tabs #tabs-how-to-use ul, #tabs #tabs-settings-page ul, #tabs #tabs-available-hooks ul {
+list-style-type: decimal;
+padding-left: 22px;
+}
+#tabs #tabs-how-to-use ul img {
+width: 70%;
+}
+#tabs #tabs-how-to-use ul img.step5 {
+width: auto;
+}
+#tabs h2 {
+font-size: 18px;
+padding: 0px 8px;
+text-decoration: underline;	
+}
+.ui-tabs .ui-tabs-nav li {
+list-style: none;
+float: left;
+position: relative;
+top: 0;
+margin: 1px .2em 0 0;
+border: 1px solid #ddd;
+border-bottom: 1px solid transparent;
+padding: 0;
+white-space: nowrap;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+border: 1px solid #ddd;
+background: #F7F7F3;
+font-weight: normal;
+color: #223340;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-widget-header .ui-tabs-active {
+border: 1px solid #00BA84;
+background: #00BA84;
+font-weight: normal;
+color: #fff;
+}
+.ui-helper-clearfix::after {
+clear: both;
+}
+.ui-helper-clearfix::before, .ui-helper-clearfix::after {
+content: "";
+display: table;
+border-collapse: collapse;
+}
+.ui-tabs .ui-tabs-nav li a {
+float: left;
+padding: .5em 1em;
+text-decoration: none;
+color: #223340;
+}
+.ui-tabs .ui-tabs-nav li a:hover, .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+color: #fff;
+}

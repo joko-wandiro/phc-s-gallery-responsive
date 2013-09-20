@@ -1,0 +1,6 @@
+.type-s-gallery-responsive .post-title .inline, .type-s-gallery-responsive .post-title .view {
+display: none;
+}
+.type-s-gallery-responsive .column-gallery img {
+max-height: 50px;
+}

@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: S Gallery Responsive\n"
+"POT-Creation-Date: 2013-09-20 10:29+0700\n"
+"PO-Revision-Date: 2013-09-20 10:30+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././phc-s-gallery-responsive.php:35 .././inc/pages/settings.php:35
+msgid "Settings"
+msgstr ""
+
+#: .././phc-s-gallery-responsive.php:40 .././inc/pages/documentation.php:20
+msgid "Documentation"
+msgstr ""
+
+#: .././inc/manage_columns.php:8
+msgid "Title"
+msgstr ""
+
+#: .././inc/manage_columns.php:9
+msgid "Shortcode"
+msgstr ""
+
+#: .././inc/manage_columns.php:10
+msgid "Gallery"
+msgstr ""
+
+#: .././inc/manage_columns.php:11
+msgid "Author"
+msgstr ""
+
+#: .././inc/manage_columns.php:12
+msgid "Date"
+msgstr ""
+
+#: .././inc/meta_boxes.php:39
+msgid "New Image"
+msgstr ""
+
+#: .././inc/meta_boxes.php:44 .././inc/meta_boxes.php:74
+msgid "Delete"
+msgstr ""
+
+#: .././inc/meta_boxes.php:46 .././inc/meta_boxes.php:76
+msgid "Remove"
+msgstr ""
+
+#: .././inc/meta_boxes.php:49 .././inc/meta_boxes.php:79
+msgid "Image"
+msgstr ""
+
+#: .././inc/meta_boxes.php:58 .././inc/meta_boxes.php:100
+msgid "Select Image"
+msgstr ""
+
+#: .././inc/meta_boxes.php:179
+msgid "fullScreenEnabled"
+msgstr ""
+
+#: .././inc/post_type.php:21 .././inc/post_type.php:22
+msgid "S Gallery Responsive"
+msgstr ""
+
+#: .././inc/post_type.php:23 .././inc/post_type.php:24
+msgid "Add New Gallery"
+msgstr ""
+
+#: .././inc/post_type.php:25
+msgid "Edit Gallery"
+msgstr ""
+
+#: .././inc/post_type.php:26
+msgid "New Gallery"
+msgstr ""
+
+#: .././inc/post_type.php:27
+msgid "View Gallery"
+msgstr ""
+
+#: .././inc/post_type.php:28
+msgid "Search Gallery"
+msgstr ""
+
+#: .././inc/post_type.php:29
+msgid "No Gallery Found"
+msgstr ""
+
+#: .././inc/post_type.php:30
+msgid "No Gallery Found In Trash"
+msgstr ""
+
+#: .././inc/pages/documentation.php:33
+msgid "Your donation keep me to maintain and make it free of bug."
+msgstr ""
+
+#: .././inc/pages/documentation.php:39
+msgid "How to Use"
+msgstr ""
+
+#: .././inc/pages/documentation.php:41
+msgid "Settings Page"
+msgstr ""
+
+#: .././inc/pages/documentation.php:43
+msgid "Available Hooks"
+msgstr ""
+
+#: .././inc/pages/documentation.php:45
+msgid "Translation"
+msgstr ""
+
+#: .././inc/pages/documentation.php:49
+msgid "Add S Gallery Responsive into post/page."
+msgstr ""
+
+#: .././inc/pages/documentation.php:52
+msgid "Goto S Gallery Responsive &gt; Add New Gallery."
+msgstr ""
+
+#: .././inc/pages/documentation.php:55
+msgid "Enter Title. Ex: S Gallery Responsive."
+msgstr ""
+
+#: .././inc/pages/documentation.php:61
+msgid "Click New Image to add image for S Gallery Responsive."
+msgstr ""
+
+#: .././inc/pages/documentation.php:68
+msgid ""
+"Click Image 1 to display content. Click Select Image to show Media Uploader."
+msgstr ""
+
+#: .././inc/pages/documentation.php:75
+msgid ""
+"If you've already upload your images. Click on image then click select Button"
+msgstr ""
+
+#: .././inc/pages/documentation.php:82
+msgid "Do step 3 - step 5 to add image for Gallery."
+msgstr ""
+
+#: .././inc/pages/documentation.php:85
+msgid "Set Properties for your Gallery."
+msgstr ""
+
+#: .././inc/pages/documentation.php:92
+msgid "Click Publish Button."
+msgstr ""
+
+#: .././inc/pages/documentation.php:95
+msgid ""
+"Goto S Gallery Responsive to view all of your Gallery. You can add it into "
+"your post or page, just copy shortcode syntax on Shortcode column. Then you "
+"will get your S Gallery Responsive on your post / page."
+msgstr ""
+
+#: .././inc/pages/documentation.php:102
+msgid ""
+"Goto Posts &gt; All Posts. Then click edit on specific post. You can create "
+"new post / page later, I use edit post just for example."
+msgstr ""
+
+#: .././inc/pages/documentation.php:108
+msgid "Add S Gallery Responsive shortcode like the following image."
+msgstr ""
+
+#: .././inc/pages/documentation.php:115
+msgid "Click Update. Then click View Post button to check S Gallery Responsive is shown on your post. You should see your post like the following image."
+msgstr ""
+
+#: .././inc/pages/documentation.php:124
+msgid "Add S Gallery Responsive into widget."
+msgstr ""
+
+#: .././inc/pages/documentation.php:127
+msgid "Goto Appearance &gt; Widgets."
+msgstr ""
+
+#: .././inc/pages/documentation.php:130
+msgid ""
+"Use Widget Text. Enter Title. Ex: S Gallery Responsive Widget. Then add "
+"shortcode into content. You should add parameter type=&quot;widget&quot; "
+"into shortcode. See the following image."
+msgstr ""
+
+#: .././inc/pages/documentation.php:136
+msgid "Click Save Button."
+msgstr ""
+
+#: .././inc/pages/documentation.php:139
+msgid "Add S Gallery Responsive into PHP file."
+msgstr ""
+
+#: .././inc/pages/documentation.php:142
+msgid "You can do it with do_shortcode syntax."
+msgstr ""
+
+#: .././inc/pages/documentation.php:150
+msgid "Goto S Gallery Responsive &gt; Settings."
+msgstr ""
+
+#: .././inc/pages/documentation.php:153
+msgid ""
+"You can set image size for S Gallery Responsive on Post / Page and Widget. "
+"It make performance better. Set it with numeric value for small and large "
+"image."
+msgstr ""
+
+#: .././inc/pages/documentation.php:158
+msgid "Hooks Action"
+msgstr ""
+
+#: .././inc/pages/documentation.php:162
+msgid ""
+"You can use it load more javascripts and styles for S Gallery Responsive."
+msgstr ""
+
+#: .././inc/pages/documentation.php:167
+msgid ""
+"You can use it to do any functionality before S Gallery Responsive sripts run"
+msgstr ""
+
+#: .././inc/pages/documentation.php:172
+msgid ""
+"You can use it to do any functionality after S Gallery Responsive sripts run"
+msgstr ""
+
+#: .././inc/pages/documentation.php:176
+msgid "Hooks Filter"
+msgstr ""
+
+#: .././inc/pages/documentation.php:180
+msgid ""
+"You can use it to modify S Gallery Responsive Properties. Parameter contain "
+"S Gallery Responsive Properties"
+msgstr ""
+
+#: .././inc/pages/documentation.php:188
+msgid ""
+"Help me to Translate it. I provide POT file on languages folder. You can use "
+"translation application such as POEdit and translate it to your locale "
+"language and save it into PO file and MO file"
+msgstr ""
+
+#: .././inc/pages/documentation.php:190
+msgid "You can contribute to make it bigger with your support guys !"
+msgstr ""
+
+#: .././inc/pages/settings.php:39
+msgid "Image Size On Post / Page"
+msgstr ""
+
+#: .././inc/pages/settings.php:41
+msgid "Image Size On Widget"
+msgstr ""
+
+#: .././inc/pages/settings.php:49 .././inc/pages/settings.php:91
+msgid "Small Image"
+msgstr ""
+
+#: .././inc/pages/settings.php:58 .././inc/pages/settings.php:77
+#: .././inc/pages/settings.php:100 .././inc/pages/settings.php:119
+msgid "width"
+msgstr ""
+
+#: .././inc/pages/settings.php:62 .././inc/pages/settings.php:81
+#: .././inc/pages/settings.php:104 .././inc/pages/settings.php:123
+msgid "height"
+msgstr ""
+
+#: .././inc/pages/settings.php:68 .././inc/pages/settings.php:110
+msgid "Large Image"
+msgstr ""
+
+#: .././inc/pages/settings.php:131
+msgid "Save"
+msgstr ""

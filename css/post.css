@@ -1,0 +1,73 @@
+div.meta-box-wrapper > div, .meta-box-side-wrapper > div { margin-bottom: 10px; }
+div.meta-box-wrapper div label, .meta-box-side-wrapper div label { width: 160px; float: left; 
+line-height: 23px; }
+div.meta-box-wrapper div label.help-inline, 
+.meta-box-side-wrapper div label.help-inline { float: none; }
+div.meta-box-wrapper div input[type="text"], div.meta-box-wrapper div input[type="password"], 
+div.meta-box-wrapper div textarea, div.meta-box-wrapper div select, 
+div.meta-box-side-wrapper div input[type="text"], div.meta-box-side-wrapper div input[type="password"], 
+div.meta-box-side-wrapper div textarea, div.meta-box-side-wrapper div select { width: 300px; }
+div.meta-box-wrapper .controls-input label, div.meta-box-wrapper div label.no-float, 
+div.meta-box-side-wrapper .controls-input label, div.meta-box-side-wrapper div label.no-float {
+float: none;
+}
+div.meta-box-wrapper div.widget, div.meta-box-side-wrapper div.widget {
+margin-bottom: 0px;
+}
+div.meta-box-wrapper div.ui-state-highlight, .ui-state-highlight, 
+div.meta-box-side-wrapper div.ui-state-highlight {
+border: 1px solid #fcefa1;
+color: #363636;
+background: #fbf9ee;
+height: 32px;
+line-height: 32px;
+margin-bottom: 0px;
+}
+div.meta-box-side-wrapper div input[type="checkbox"] {
+line-height: 23px;
+height: 23px;
+}
+#s-gallery-responsive-accordion .hndle {
+cursor: pointer;
+}
+#s-gallery-responsive-accordion .btn-icon-header {
+float: right;
+width: auto;
+height: 30px;
+line-height: 30px;
+margin-right: 10px;
+}
+#s-gallery-responsive-accordion .button-secondary {
+margin: 3px 0px;
+}
+#s-gallery-responsive-accordion .currency-input {
+width: 30px;
+text-align: right;
+}
+#s-gallery-responsive-accordion .price-input {
+width: 160px;
+}
+#s-gallery-responsive-accordion .price_per-input {
+width: 94px;
+}
+.s-gallery-responsive-section {
+padding: 10px;
+height: auto!important;
+}
+.s-gallery-responsive-image img {
+max-height: 100px;
+}
+.template-s-gallery-responsive-form {
+display: none;
+}
+/* Hidden Another Element */
+#minor-publishing {
+display: none;
+}
+#titlediv .inside {
+display: none;
+}
+#message p  a {
+display: none;
+}
+/* Hidden Another Element */
