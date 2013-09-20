@@ -16,7 +16,7 @@ Features:
 
 Credits:
 * SaraSoueidan to create [JQuery Plugin S Gallery Responsive](http://sarasoueidan.com/blog/s-gallery-responsive-jquery-gallery-plugin-with-css3-animations/)
-* Icons [emey87.deviantart.com](emey87.deviantart.com)
+* Icons by [emey87.deviantart.com](http://emey87.deviantart.com)
 
 ## Screenshot ( Available Themes )
 ![Screenshot 1](screenshot/screenshot1.png)
