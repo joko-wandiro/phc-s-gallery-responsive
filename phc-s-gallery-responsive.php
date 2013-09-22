@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: S Gallery Responsive
-Plugin URI: https://github.com/joko-wandiro/wp-s-gallery-responsive
+Plugin URI: https://github.com/joko-wandiro/phc-s-gallery-responsive
 Description: Add S Gallery Responsive jQuery Gallery Plugin with CSS3 Animations to your post / page / widget Wordpress
 Version: 1.0.0
 Author: Joko Wandiro
