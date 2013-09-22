@@ -6,6 +6,7 @@ This plugin make you can create / add it easily using Wordpress.
 How to Install it to your Wordpress Site:
 * Extract zip Package.
 * Rename it to phc-s-gallery-responsive.
+* Copy it into wp-content\plugins.
 * Goto Plugins.
 * Click Activate on S Gallery Responsive.
 
