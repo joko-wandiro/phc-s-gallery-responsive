@@ -3,6 +3,12 @@
 S Gallery Responsive is jQuery Gallery Plugin with CSS3 Animations. 
 This plugin make you can create / add it easily using Wordpress.
 
+How to Install it to your Wordpress Site:
+* Extract zip Package.
+* Rename it to phc-s-gallery-responsive.
+* Goto Plugins.
+* Click Activate on S Gallery Responsive.
+
 Features:
 * Of Course it's easy to use.
 * Using Good User Interface to make you think it's premium stuff.
@@ -13,7 +19,7 @@ Features:
 * Available Custom Hooks.
 * Complete Documentation Page.
 
-License: [GNU GPL version 3](http://www.gnu.org/licenses/gpl-3.0.txt)
+License: [http://creativecommons.org/licenses/by-nc/3.0](http://creativecommons.org/licenses/by-nc/3.0)
 
 Credits:
 * SaraSoueidan to create [JQuery Plugin S Gallery Responsive](http://sarasoueidan.com/blog/s-gallery-responsive-jquery-gallery-plugin-with-css3-animations/)
