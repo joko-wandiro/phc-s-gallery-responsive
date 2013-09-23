@@ -20,7 +20,7 @@ Features:
 * Available Custom Hooks.
 * Complete Documentation Page.
 
-License: [http://creativecommons.org/licenses/by-nc/3.0](http://creativecommons.org/licenses/by-nc/3.0)
+License: [GNU LESSER GENERAL PUBLIC LICENSE](http://www.gnu.org/licenses/lgpl.html)
 
 Credits:
 * SaraSoueidan to create [JQuery Plugin S Gallery Responsive](http://sarasoueidan.com/blog/s-gallery-responsive-jquery-gallery-plugin-with-css3-animations/)
