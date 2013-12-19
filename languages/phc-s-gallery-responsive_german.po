@@ -1,0 +1,279 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: S Gallery Responsive\n"
+"POT-Creation-Date: 2013-09-20 10:29+0700\n"
+"PO-Revision-Date: 2013-12-19 23:20+0100\n"
+"Last-Translator: Christian M. Grube <Christian.Grube@teiko.org>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../.\n"
+
+#: .././phc-s-gallery-responsive.php:35
+#: .././inc/pages/settings.php:35
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: .././phc-s-gallery-responsive.php:40
+#: .././inc/pages/documentation.php:20
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: .././inc/manage_columns.php:8
+msgid "Title"
+msgstr "Titel"
+
+#: .././inc/manage_columns.php:9
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: .././inc/manage_columns.php:10
+msgid "Gallery"
+msgstr "Gallerie"
+
+#: .././inc/manage_columns.php:11
+msgid "Author"
+msgstr "Autor"
+
+#: .././inc/manage_columns.php:12
+msgid "Date"
+msgstr "Datum"
+
+#: .././inc/meta_boxes.php:39
+msgid "New Image"
+msgstr "Neues Bild"
+
+#: .././inc/meta_boxes.php:44
+#: .././inc/meta_boxes.php:74
+msgid "Delete"
+msgstr "Löschen"
+
+#: .././inc/meta_boxes.php:46
+#: .././inc/meta_boxes.php:76
+msgid "Remove"
+msgstr "Entfernen"
+
+#: .././inc/meta_boxes.php:49
+#: .././inc/meta_boxes.php:79
+msgid "Image"
+msgstr "Bild"
+
+#: .././inc/meta_boxes.php:58
+#: .././inc/meta_boxes.php:100
+msgid "Select Image"
+msgstr "Bild auswählen"
+
+#: .././inc/meta_boxes.php:179
+msgid "fullScreenEnabled"
+msgstr "Vollbild aktivieren"
+
+#: .././inc/post_type.php:21
+#: .././inc/post_type.php:22
+msgid "S Gallery Responsive"
+msgstr "S Gallery Responsive"
+
+#: .././inc/post_type.php:23
+#: .././inc/post_type.php:24
+msgid "Add New Gallery"
+msgstr "Neue Gallerie hinzufügen"
+
+#: .././inc/post_type.php:25
+msgid "Edit Gallery"
+msgstr "Gallerie bearbeiten"
+
+#: .././inc/post_type.php:26
+msgid "New Gallery"
+msgstr "Neue Gallerie"
+
+#: .././inc/post_type.php:27
+msgid "View Gallery"
+msgstr "Gallerie anzeigen"
+
+#: .././inc/post_type.php:28
+msgid "Search Gallery"
+msgstr "Gallerie suchen"
+
+#: .././inc/post_type.php:29
+msgid "No Gallery Found"
+msgstr "Keine Gallerie gefunden"
+
+#: .././inc/post_type.php:30
+msgid "No Gallery Found In Trash"
+msgstr "Keine Gallerie im Mülleimer gefunden"
+
+#: .././inc/pages/documentation.php:33
+msgid "Your donation keep me to maintain and make it free of bug."
+msgstr "Ihr Spende hilft mir das Projekt weiterzuverfolgen und es fehlerfrei zu machen."
+
+#: .././inc/pages/documentation.php:39
+msgid "How to Use"
+msgstr "Anleitung"
+
+#: .././inc/pages/documentation.php:41
+msgid "Settings Page"
+msgstr "Einstellungsseite"
+
+#: .././inc/pages/documentation.php:43
+msgid "Available Hooks"
+msgstr "Vorhandene Hooks"
+
+#: .././inc/pages/documentation.php:45
+msgid "Translation"
+msgstr "Übersetzung"
+
+#: .././inc/pages/documentation.php:49
+msgid "Add S Gallery Responsive into post/page."
+msgstr " S Gallery Responsive in einen Artikel oder eine Seite einfügren"
+
+#: .././inc/pages/documentation.php:52
+msgid "Goto S Gallery Responsive &gt; Add New Gallery."
+msgstr "Zu S Gallery Responsive &gt; Neue Gallerie hinzufügen gehen"
+
+#: .././inc/pages/documentation.php:55
+msgid "Enter Title. Ex: S Gallery Responsive."
+msgstr "Titel eingeben, als Bsp  S Gallery Responsive"
+
+#: .././inc/pages/documentation.php:61
+msgid "Click New Image to add image for S Gallery Responsive."
+msgstr "Neues Bild anklicken um ein Bild in  S Gallery Responsive hinzuzufügen"
+
+#: .././inc/pages/documentation.php:68
+msgid "Click Image 1 to display content. Click Select Image to show Media Uploader."
+msgstr "Image 1 wählen um den Inhalt anzuzeigen und Bild auswählen um den Mediauploader anzuzeigen"
+
+#: .././inc/pages/documentation.php:75
+msgid "If you've already upload your images. Click on image then click select Button"
+msgstr "Wenn sie schon die Bilder hochegladen haben wählen sie einfach das Bild aus und benutzen den Auswählenbutton"
+
+#: .././inc/pages/documentation.php:82
+msgid "Do step 3 - step 5 to add image for Gallery."
+msgstr "Wenden Sie Schritt 3 bis 5 an um ein Bild der Gallerie hinzuzufügen"
+
+#: .././inc/pages/documentation.php:85
+msgid "Set Properties for your Gallery."
+msgstr "Eigenschaften der Gallerie einstellen"
+
+#: .././inc/pages/documentation.php:92
+msgid "Click Publish Button."
+msgstr "Veröffentlichenbutton anklicken"
+
+#: .././inc/pages/documentation.php:95
+msgid "Goto S Gallery Responsive to view all of your Gallery. You can add it into your post or page, just copy shortcode syntax on Shortcode column. Then you will get your S Gallery Responsive on your post / page."
+msgstr "Zu  S Gallery Responsive gehen um alle Gallerien zu sehen. Hier können sie die Shortcodesyntax in der Shortcodekolumne kopieren um sie in den Artikel oder in die Seite einzufügen. Mit Hilfe des Shortcodes ist dann die in S Gallery Responsive erstellte Gallerie in Ihrem Artikel, oder Ihrer Seite eingebunden."
+
+#: .././inc/pages/documentation.php:102
+msgid "Goto Posts &gt; All Posts. Then click edit on specific post. You can create new post / page later, I use edit post just for example."
+msgstr "Zu Artikel &gt; Alle Artikel gehen. Dort nun den zu bearbeitenden Artikel anklicken. Nun kann später ein neuer Artikel oder eine neue Seite erstellt werden. Ich habe habe bearbeiten hier nur beispielhaft benutzt."
+
+#: .././inc/pages/documentation.php:108
+msgid "Add S Gallery Responsive shortcode like the following image."
+msgstr "Den S Gallery Responsive shortcode wie in dem folgenden Bild einfügen"
+
+#: .././inc/pages/documentation.php:115
+msgid "Click Update. Then click View Post button to check S Gallery Responsive is shown on your post. You should see your post like the following image."
+msgstr "Den Beitrag speichern und dann anhand der Vorschau überprüfen, ob S Gallery Responsive  in dem Artikel angezeigt wird. Sie sollten den Artikel nun wie in dem folgenden Bild sehen"
+
+#: .././inc/pages/documentation.php:124
+msgid "Add S Gallery Responsive into widget."
+msgstr "S Gallery Responsive in einem Widget einfügen"
+
+#: .././inc/pages/documentation.php:127
+msgid "Goto Appearance &gt; Widgets."
+msgstr "Zu Erscheinungsbild &gt; Widgets gehen"
+
+#: .././inc/pages/documentation.php:130
+msgid "Use Widget Text. Enter Title. Ex: S Gallery Responsive Widget. Then add shortcode into content. You should add parameter type=&quot;widget&quot; into shortcode. See the following image."
+msgstr "Benutzen sie das Widget mit der Kategorie Text. Der Titel ist frie anwendbar, z.B. S Gallery Responsive Widget. Als Inhalt in dem Widget muss der Shortcode der Gallerie eingegeben werden. Dieser muss den Paramter type=&quot;widget&quot; enthalten. Sehen sie dazu auch das folgende Bild"
+
+#: .././inc/pages/documentation.php:136
+msgid "Click Save Button."
+msgstr "Den Speichernbutton benutzen"
+
+#: .././inc/pages/documentation.php:139
+msgid "Add S Gallery Responsive into PHP file."
+msgstr " S Gallery Responsive in eine PHP-Datei einfügen"
+
+#: .././inc/pages/documentation.php:142
+msgid "You can do it with do_shortcode syntax."
+msgstr "Dies wird mit der do_shortcode syntax ermöglicht."
+
+#: .././inc/pages/documentation.php:150
+msgid "Goto S Gallery Responsive &gt; Settings."
+msgstr "Zu S Gallery Responsive &gt; Einstellungen gehen"
+
+#: .././inc/pages/documentation.php:153
+msgid "You can set image size for S Gallery Responsive on Post / Page and Widget. It make performance better. Set it with numeric value for small and large image."
+msgstr "Sie können die Größe der Bilder von S Gallery Responsive für die Artikel/Seiten und Widgets einstellen. Dies verbessert die Leistung. Setzen Sie es mit Zahlenwert für das kleine und das große Bild."
+
+#: .././inc/pages/documentation.php:158
+msgid "Hooks Action"
+msgstr "Hooks Action"
+
+#: .././inc/pages/documentation.php:162
+msgid "You can use it load more javascripts and styles for S Gallery Responsive."
+msgstr "Kann benutzt werden um mehr Javascripts und Stile für S Gallery Responsive zu laden"
+
+#: .././inc/pages/documentation.php:167
+msgid "You can use it to do any functionality before S Gallery Responsive sripts run"
+msgstr "Kann benutzt werden für die Ausführung vor dem Start der S Gallery Responsivescripte"
+
+#: .././inc/pages/documentation.php:172
+msgid "You can use it to do any functionality after S Gallery Responsive sripts run"
+msgstr "Kann benutzt werden für die Ausführung nach dem Start der S Gallery Responsivescripte"
+
+#: .././inc/pages/documentation.php:176
+msgid "Hooks Filter"
+msgstr "Hooks Filter"
+
+#: .././inc/pages/documentation.php:180
+msgid "You can use it to modify S Gallery Responsive Properties. Parameter contain S Gallery Responsive Properties"
+msgstr "Kann benutzt werden um die Eigenschaften von S Gallery Responsive zu ändern. Die Parameter beinhalten Eigenschaften von S Gallery Responsive "
+
+#: .././inc/pages/documentation.php:188
+msgid "Help me to Translate it. I provide POT file on languages folder. You can use translation application such as POEdit and translate it to your locale language and save it into PO file and MO file"
+msgstr "Helfen sie mir bei der Übersetzung. Ich stelle in dem Verzeichnis languages eine POT-Datei bereit. Diese Datei können sie für die Übersetzung mit POEdit nutzen und in Ihre Sprache übersetzen und in einer PO und MO-Datei abspeichern"
+
+#: .././inc/pages/documentation.php:190
+msgid "You can contribute to make it bigger with your support guys !"
+msgstr "Helft mit Ihrem Beitrag das Projekt größer und besser zu machen"
+
+#: .././inc/pages/settings.php:39
+msgid "Image Size On Post / Page"
+msgstr "Bildgröße im Artikel oder auf der Seite"
+
+#: .././inc/pages/settings.php:41
+msgid "Image Size On Widget"
+msgstr "Bildgröße im Widget"
+
+#: .././inc/pages/settings.php:49
+#: .././inc/pages/settings.php:91
+msgid "Small Image"
+msgstr "Kleines Bild"
+
+#: .././inc/pages/settings.php:58
+#: .././inc/pages/settings.php:77
+#: .././inc/pages/settings.php:100
+#: .././inc/pages/settings.php:119
+msgid "width"
+msgstr "Breite"
+
+#: .././inc/pages/settings.php:62
+#: .././inc/pages/settings.php:81
+#: .././inc/pages/settings.php:104
+#: .././inc/pages/settings.php:123
+msgid "height"
+msgstr "Höhe"
+
+#: .././inc/pages/settings.php:68
+#: .././inc/pages/settings.php:110
+msgid "Large Image"
+msgstr "Großes Bild"
+
+#: .././inc/pages/settings.php:131
+msgid "Save"
+msgstr "Speichern"
+
