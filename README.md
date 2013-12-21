@@ -27,7 +27,7 @@ Credits:
 * Icons by [emey87.deviantart.com](http://emey87.deviantart.com)
 
 Contributors:
-* [Christian M. Grube](https://github.com/seraphyn) for German Translation
+* [Christian M. Grube](https://github.com/seraphyn)
 
 ## Screenshot
 ![Screenshot 1](screenshot/screenshot1.png)
