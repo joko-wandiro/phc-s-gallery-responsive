@@ -26,6 +26,9 @@ Credits:
 * SaraSoueidan to create [JQuery Plugin S Gallery Responsive](http://sarasoueidan.com/blog/s-gallery-responsive-jquery-gallery-plugin-with-css3-animations/)
 * Icons by [emey87.deviantart.com](http://emey87.deviantart.com)
 
+Contributors:
+* [Christian M. Grube](https://github.com/seraphyn) for German Translation
+
 ## Screenshot
 ![Screenshot 1](screenshot/screenshot1.png)
 ![Screenshot 2](screenshot/screenshot2.png)
