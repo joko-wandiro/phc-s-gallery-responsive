@@ -42,7 +42,8 @@ function phc_s_gallery_responsives_custom_columns($columns){
 			break;
 		case "shortcode":
 			if( isset($post->ID) ){
-				echo '<code>[phc_s_gallery_responsive id="' . $post->ID . '"]</code>';
+				echo '<p>Shortcode for post / page: <code>[phc_s_gallery_responsive id="' . $post->ID . '"]</code></p>';
+				echo '<p>Shortcode for widget: <code>[phc_s_gallery_responsive id="' . $post->ID . '" type="widget"]</code>';
 			}
 			break;
 	}

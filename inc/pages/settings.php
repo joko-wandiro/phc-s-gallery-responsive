@@ -28,7 +28,9 @@ function phc_s_gallery_responsive_settings_page(){
 		$s_gallery_responsive_obj->fetch_and_regenerate_image();
 	}
 	$phc_s_gallery_responsive_settings_vars= get_option('phc_s_gallery_responsive_settings_vars');
-	extract($phc_s_gallery_responsive_settings_vars);
+	if( is_array($phc_s_gallery_responsive_settings_vars) ){
+		extract($phc_s_gallery_responsive_settings_vars);
+	}
 ?>
 	<div class="wrap" id="<?php echo PCH_BPT_WIM_IDENTIFIER; ?>">
 	<?php screen_icon('generic'); ?>

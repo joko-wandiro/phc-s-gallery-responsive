@@ -7,8 +7,8 @@ function phc_s_gallery_responsive_add_image_size(){
 		$default_image_size= array("post_small_width"=>"250", "post_small_height"=>"166", 
 		"post_large_width"=>"736", "post_large_height"=>"490", "widget_small_width"=>"75", 
 		"widget_small_height"=>"50", "widget_large_width"=>"50", "widget_large_height"=>"50");
-		$phc_s_gallery_responsive_settings_vars= array_merge($default_image_size, 
-		$phc_s_gallery_responsive_settings_vars);
+		$phc_s_gallery_responsive_settings_vars= (is_array($phc_s_gallery_responsive_settings_vars)) ? 
+		array_merge($default_image_size, $phc_s_gallery_responsive_settings_vars) : $default_image_size;
 		
 		extract($phc_s_gallery_responsive_settings_vars);
 		add_image_size('phc-s-gallery-responsive-post-small', $post_small_width, $post_small_height, 
@@ -39,7 +39,22 @@ function phc_s_gallery_responsive_display($atts, $content=null){
 }
 
 // Support Shortcode on Widget Text
-add_filter('widget_text', 'do_shortcode');
+add_filter('widget_text', 'phc_s_gallery_responsive_widget_frontend_js');
+function phc_s_gallery_responsive_widget_frontend_js($text) {
+    $pattern= get_shortcode_regex();
+    if( isset($text) && preg_match_all( '/'. $pattern .'/s', $text, $matches )
+        && array_key_exists( 2, $matches )
+        && in_array( 'phc_s_gallery_responsive', $matches[2] ) ){
+		
+		wp_enqueue_s_gallery_responsive_scripts_for_frontend();
+		
+		// Hook Action to load javascripts and styles
+		do_action('phc_s_gallery_responsive_widget_load_scripts_and_styles');
+		return do_shortcode($text);
+    }else{
+		return $text;
+	}
+}
 
 // Enqueue the script, in the footer
 add_action('wp', 'phc_s_gallery_responsive_frontend_js');
@@ -50,19 +65,24 @@ function phc_s_gallery_responsive_frontend_js() {
         && array_key_exists( 2, $matches )
         && in_array( 'phc_s_gallery_responsive', $matches[2] ) ){
 		
-		// Enqueue the S Gallery Responsive Scripts and Styles
-		wp_enqueue_style(PHC_S_GALLERY_RESPONSIVE_ID_SCRIPT . '_styles_css', 
-		PHC_S_GALLERY_RESPONSIVE_PATH_URL_CSS . "s-gallery-responsive/styles.css");
-		wp_enqueue_script(PHC_S_GALLERY_RESPONSIVE_ID_SCRIPT . '_plugins_js', 
-		PHC_S_GALLERY_RESPONSIVE_PATH_URL_JS . "s-gallery-responsive/plugins.js", 
-		array("jquery"), '', FALSE);
-		wp_enqueue_script(PHC_S_GALLERY_RESPONSIVE_ID_SCRIPT . '_scripts_js', 
-		PHC_S_GALLERY_RESPONSIVE_PATH_URL_JS . "s-gallery-responsive/jquery.s-gallery-responsive.js", 
-		array("jquery"), '', FALSE);
+		wp_enqueue_s_gallery_responsive_scripts_for_frontend();
 		
 		// Hook Action to load javascripts and styles
 		do_action('phc_s_gallery_responsive_load_scripts_and_styles');
     }
+}
+
+// Load Required Script and Styles for Camera Jquery Plugin
+function wp_enqueue_s_gallery_responsive_scripts_for_frontend(){
+	// Enqueue the S Gallery Responsive Scripts and Styles
+	wp_enqueue_style(PHC_S_GALLERY_RESPONSIVE_ID_SCRIPT . '_styles_css', 
+	PHC_S_GALLERY_RESPONSIVE_PATH_URL_CSS . "s-gallery-responsive/styles.css");
+	wp_enqueue_script(PHC_S_GALLERY_RESPONSIVE_ID_SCRIPT . '_plugins_js', 
+	PHC_S_GALLERY_RESPONSIVE_PATH_URL_JS . "s-gallery-responsive/plugins.js", 
+	array("jquery"), '', FALSE);
+	wp_enqueue_script(PHC_S_GALLERY_RESPONSIVE_ID_SCRIPT . '_scripts_js', 
+	PHC_S_GALLERY_RESPONSIVE_PATH_URL_JS . "s-gallery-responsive/jquery.s-gallery-responsive.js", 
+	array("jquery"), '', FALSE);
 }
 
 final class PHC_S_Gallery_Responsive {
